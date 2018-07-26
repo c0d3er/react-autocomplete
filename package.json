@@ -4,10 +4,8 @@
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [
+    "react","autocomplete","es6","component"
   ],
-  "activationCommands": {
-    "atom-workspace": "react-autocomplete:toggle"
-  },
   "repository": "https://github.com/c0d3er/react-autocomplete",
   "license": "MIT",
   "engines": {
