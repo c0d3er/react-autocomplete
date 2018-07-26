@@ -1,0 +1,18 @@
+{
+  "name": "react-autocomplete",
+  "main": "./lib/react-autocomplete",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "react-autocomplete:toggle"
+  },
+  "repository": "https://github.com/c0d3er/react-autocomplete",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

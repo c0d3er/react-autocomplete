@@ -1,0 +1,107 @@
+'.source.js.jsx':
+  'React ES6 render':
+    'prefix': 'render'
+    'body': """
+      render(){
+        return(
+          <div>
+            ${1}
+          </div>
+        )
+      }
+    """
+  'React ES6 constructor':
+    'prefix': 'constructor'
+    'body': """
+      constructor(props){
+        super(props);
+        ${1}
+      }
+    """
+  'React ES6 componentDidMount':
+    'prefix': 'componentDidMount'
+    'body': """
+      componentDidMount(){
+        ${1}
+      }
+    """
+  'React ES6 componentDidUpdate':
+    'prefix': 'componentDidUpdate'
+    'body': """
+      componentDidUpdate(prevProps, prevState, snapshot){
+        ${1}
+      }
+    """
+  'React ES6 componentWillUnmount':
+    'prefix': 'componentWillUnmount'
+    'body': """
+      componentWillUnmount(){
+        ${1}
+      }
+    """
+  'React ES6 shouldComponentUpdate':
+    'prefix': 'shouldComponentUpdate'
+    'body': """
+      shouldComponentUpdate(nextProps, nextState){
+        ${1}
+      }
+    """
+  'React ES6 componentWillReceiveProps':
+    'prefix': 'componentWillReceiveProps'
+    'body': """
+      componentWillReceiveProps(nextProps){
+        ${1}
+      }
+    """
+  'React ES6 getDerivedStateFromProps':
+    'prefix': 'getDerivedStateFromProps'
+    'body': """
+      static getDerivedStateFromProps(props, state){
+        ${1}
+      }
+    """
+  'React ES6 getSnapshotBeforeUpdate':
+    'prefix': 'getSnapshotBeforeUpdate'
+    'body': """
+      getSnapshotBeforeUpdate(prevProps, prevState){
+        ${1}
+      }
+    """
+  'React ES6 componentDidCatch':
+    'prefix': 'componentDidCatch'
+    'body': """
+      componentDidCatch(error, info){
+        ${1}
+      }
+    """
+  'React ES6 UNSAFE_componentWillMount':
+    'prefix': 'UNSAFE_componentWillMount'
+    'body': """
+      UNSAFE_componentWillMount(){
+        ${1}
+      }
+    """
+  'React ES6 UNSAFE_componentWillReceiveProps':
+    'prefix': 'UNSAFE_componentWillReceiveProps'
+    'body': """
+      UNSAFE_componentWillReceiveProps(nextProps){
+        ${1}
+      }
+    """
+  'React ES6 UNSAFE_componentWillUpdate':
+    'prefix': 'UNSAFE_componentWillUpdate'
+    'body': """
+      UNSAFE_componentWillUpdate(nextProps, nextState){
+        ${1}
+      }
+    """
+  'React ES6 setState':
+    'prefix': 'setState'
+    'body': """
+      this.setState(${1});
+    """
+  'React ES6 forceUpdate':
+    'prefix': 'forceUpdate'
+    'body': """
+      this.forceUpdate();
+    """
