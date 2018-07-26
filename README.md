@@ -1,7 +1,7 @@
 # react-autocomplete
 Auto complete  react component lifecycles and more methods
 
-Keywords:
+Autocompletion Keywords:
 
 render
 
